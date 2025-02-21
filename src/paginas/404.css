@@ -1,0 +1,75 @@
+.input-user {
+    padding-left: 10px;
+    color: black
+}
+
+.input-contraseña {
+    padding-left: 10px;
+    color: black
+}
+
+.user {
+    font-size: 2.5vh;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.pass {
+    font-size: 2.5vh;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+}
+
+.button {
+    font-size: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    width: 120px; 
+    border: 2px solid white;
+    border-radius: 50px;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.form {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 20%;
+    justify-items: center;
+    
+    
+}
+
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    
+}
+
+
+
+/* .box { 
+    padding: 10px auto;
+    border-style: solid;
+    border-color: whitesmoke;
+    overflow: auto;
+
+} */

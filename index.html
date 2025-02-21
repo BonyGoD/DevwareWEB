@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon estándar en la raíz -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Favicons adicionales para diferentes tamaños y dispositivos -->
+    <link rel="icon" href="/imagenes/favicon-32px.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/imagenes/favicon-48px.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="/imagenes/favicon-64px.png" sizes="64x64" type="image/png">
+    <link rel="icon" href="/imagenes/favicon-96px.png" sizes="96x96" type="image/png">
+  
+    <!-- Apple Touch Icon para dispositivos iOS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/imagenes/logos/apple-touch-icon.png">
+
+    <link href="./src/output.css" rel="stylesheet">
+    <link fetchpriority="high" rel="preload" href="./src/assets/imagenes/pagina-principal/imagen_principal_1280.webp" as="image">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="DevWare es una empresa dedicada a la creación y diseño de paginas web, aplicaciones de escritorio y apps para moviles"/>
+    <link rel="canonical" href="https://www.devware.es">
+    <link rel="canonical" href="https://devware.es">
+    <meta name="robots" content="index, follow"/>
+    <meta name="theme-color" content="#232220"/>
+    <title>DevWare</title>
+
+    <!-- Datos estructurados para el sitio web -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://www.devware.es/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.devware.es/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+      </script>
+  
+      <!-- Datos estructurados para la página de SERVICIOS -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Servicios",
+        "description": "Ofrecemos diseño web, aplicaciones móviles y software de escritorio",
+        "url": "https://www.devware.es/servicios"
+      }
+      </script>
+
+      <!-- Datos estructurados para la página de Sobre Nosotros -->
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Sobre Nosotros",
+          "description": "Nos especializamos en diseñar y desarrollar soluciones a medida que ayudan a nuestros clientes a optimizar sus procesos",
+          "url": "https://www.devware.es/nosotros"
+        }
+        </script>
+  
+      <!-- Datos estructurados para la página de Contacto -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Contacto",
+        "description": "Contacta con nosotros para cualquier duda o sugerencia.",
+        "url": "https://www.devware.es/contacto"
+      }
+      </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

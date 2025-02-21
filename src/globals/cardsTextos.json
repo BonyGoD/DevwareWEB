@@ -1,0 +1,86 @@
+[
+    {
+        "es":{
+            "id": 1,
+            "titulo": "Soluciones Web/App",
+            "descripcion": "Adaptamos nuestras herramientas a las necesidades específicas de cada cliente para garantizar resultados óptimos.",
+            "icono": "icono 1"
+        },
+        "ca":{
+            "id": 1,
+            "titulo": "Solucions Web/App",
+            "descripcion": "Adaptem les nostres eines a les necessitats específiques de cada client per garantir resultats òptims.",
+            "icono": "icono 1"
+        }
+    },
+    {
+        "es":{
+            "id": 2,
+            "titulo": "Innovación tecnológica",
+            "descripcion": "Incorporamos las últimas tendencias y tecnologías para mantener a tu negocio a la vanguardia digital.",
+            "icono": "icono 2"
+        },
+        "ca":{
+            "id": 2,
+            "titulo": "Innovació tecnològica",
+            "descripcion": "Incorporem les últimes tendències i tecnologies per mantenir el teu negoci a l'avantguarda digital.",
+            "icono": "icono 2"
+        }
+    },
+    {
+        "es":{
+            "id": 3,
+            "titulo": "Experiencia del usuario",
+            "descripcion": "Priorizamos la usabilidad y la experiencia del usuario en cada una de nuestras soluciones para asegurar su aceptación y eficacia.",
+            "icono": "icono 3"
+        },
+        "ca":{
+            "id": 3,
+            "titulo": "Experiència de l'usuari",
+            "descripcion": "Prioritzem la usabilitat i l'experiència de l'usuari en cadascuna de les nostres solucions per assegurar la seva acceptació i eficàcia.",
+            "icono": "icono 3"
+        }
+    },
+    {
+        "es":{
+            "id": 4,
+            "titulo": "Integración sin fisuras",
+            "descripcion": "Creamos sistemas interconectados que facilitan la gestión y el flujo de datos entre diferentes plataformas y dispositivos.",
+            "icono": "icono 4"
+        },
+        "ca":{
+            "id": 4,
+            "titulo": "Integració sense costures",
+            "descripcion": "Creem sistemes interconnectats que faciliten la gestió i el flux de dades entre diferents plataformes i dispositius.",
+            "icono": "icono 4"
+        }
+    },
+    {
+        "es":{
+            "id": 5,
+            "titulo": "Escalabilidad y flexibilidad",
+            "descripcion": "Nuestras soluciones están diseñadas para crecer junto con tu negocio y adaptarse a los cambios del mercado.",
+            "icono": "icono 5"
+        },
+        "ca":{
+            "id": 5,
+            "titulo": "Escalabilitat i flexibilitat",
+            "descripcion": "Les nostres solucions estan dissenyades per créixer juntament amb el teu negoci i adaptar-se als canvis del mercat.",
+            "icono": "icono 5"
+        }
+    },
+    {
+        "es":{
+            "id": 6,
+            "titulo": "Soporte técnico experto",
+            "descripcion": "Brindamos asistencia técnica continua para garantizar el funcionamiento óptimo de todas nuestras soluciones y resolver cualquier problema.",
+            "icono": "icono 6"
+        },
+        "ca":{
+            "id": 6,
+            "titulo": "Suport tècnic expert",
+            "descripcion": "Oferim assistència tècnica contínuada per garantir el funcionament òptim de totes les nostres solucions i resoldre qualsevol problema.",
+            "icono": "icono 6"
+        }
+    }
+]

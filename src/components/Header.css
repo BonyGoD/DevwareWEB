@@ -1,0 +1,133 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fondotecnico {
+  width: 63vh;
+  height: 53vh;
+}
+
+.contenido-imagen-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin: 6rem auto;
+}
+
+.contenido-header {
+  margin: 4rem auto;
+  width: 60%;
+}
+
+.contenido-botones {
+  display: flex;
+  justify-content: center;
+  gap: 3vh;
+  margin-top: 4rem;
+}
+
+.titulo-principal {
+  font-size: 10vh;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  margin-top: 2rem;
+  width: 70%;
+  font-display: swap;
+}
+
+.descripcion-header {
+  margin-top: 6rem;
+  width: 60%;
+  text-wrap: balance;
+  color: #fff;
+  font-size: 2vh;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 2rem 0;
+  width: 40%;
+  gap: 3vh;
+}
+
+.icon-socials {
+  width: 6vh;
+  height: 6vh;
+  border-radius: 1000px;
+  transition-duration: 0.3s;
+}
+
+.icon-socials:hover {
+  scale: 1.2;
+  box-shadow: 0 0 10px #000;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .titulo-principal {
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+    width: 70%;
+  }
+
+  .contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .descripcion-header {
+    width: 70%;
+    text-wrap: balance;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contenido-header {
+    width: 100%;
+  }
+  .titulo-principal {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1vh;
+  }
+
+  .descripcion-header {
+    width: 100%;
+    text-wrap: balance;
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+  }
+
+  .contenido-imagen-redes {
+    margin-top: 0px;
+  }
+
+  .fondotecnico {
+    height: 100%;
+    width: 100%;
+  }
+}

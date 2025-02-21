@@ -1,0 +1,33 @@
+.main-privacidad{
+    margin-left: 1rem;
+    text-wrap: balance;
+    color: #213547;
+}
+.puntos-articulo li{
+    list-style-type: disc;
+    margin-left: 2rem;
+    padding: .5rem;
+}
+.numeros-articulo {
+    list-style-type: decimal;
+}
+.primero-solo {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.ultimo-parrafo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: .5rem;
+}
+.primer-parrafo {
+    margin-top: 1rem;
+}
+.ultimo-parrafo p {
+    margin-bottom: 1rem;
+}
+.gracias-final {
+    margin-top: 1rem;
+}

@@ -1,0 +1,67 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 34vh;
+  height: 34vh;
+  text-wrap: wrap;
+  border-radius: 2%;
+  box-shadow: 0 0 8px #000;
+  transition-duration: 0.6s;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 0 1rem;
+
+  animation: reveal linear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 30%;
+}
+
+.titulo-informacion-cards{
+  display: flex;
+  justify-content: center;
+  margin: 6rem 2rem 2rem 2rem;
+  font-size: 5vh;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.titulo-bullet {
+  font-size: 2.8vh;
+  font-weight: bold;
+}
+
+.icono-bullet {
+  width: 8vh;
+  height: 8vh;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    scale: 0.7;
+    box-shadow: none;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+    box-shadow: 0 0 8px #000;
+  }
+}
+
+.descripcion-bullet {
+  padding: 1vh;
+  font-size: 2.3vh;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    padding: 0;
+  }
+  .card:hover {
+    transform: scale(1);
+  }
+}

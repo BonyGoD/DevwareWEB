@@ -1,0 +1,23 @@
+.contenedor-clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    gap: 1rem;
+    margin-bottom: 100px;
+}
+.imagen-grifolls {
+    width: 27.2vh;
+    height: 15.3vh;
+    margin-top: 2rem;
+}
+.imagen-grifolls :hover {
+    transform: scale(1.1);
+}
+
+.titulo-clientes {
+    text-align: center;
+    font-size: 5vh;
+    padding: 0 1rem;
+}

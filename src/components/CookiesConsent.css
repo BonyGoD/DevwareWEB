@@ -1,0 +1,41 @@
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    z-index: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .cookie-consent p {
+    margin-bottom: 10px;
+    font-size: 2vh;
+  }
+
+  .cookie-policy-link {
+    color: #94C8FF;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .cookie-policy-link:hover {
+    text-decoration: underline;
+  }
+  
+  .cookie-consent button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #0055B3;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .cookie-consent button:hover {
+    background-color: #3000b4;
+  }

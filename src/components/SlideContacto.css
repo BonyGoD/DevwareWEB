@@ -1,0 +1,70 @@
+.contenedor-contacto {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-image: url('../assets/imagenes/pagina-principal/Contacto.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	view-timeline-name: --revealing-image;
+	view-timeline-axis: block;
+	animation: linear revealContacto both;
+	animation-timeline: --revealing-image;
+	animation-range: entry 20% cover 30%;
+}
+
+@keyframes revealContacto {
+	from {
+		opacity: 0;
+		clip-path: inset(20% 45% 20% 45%);
+	}
+	to {
+		opacity: 1;
+		clip-path: inset(0% 0% 0% 0%);
+    box-shadow: 0 0 200px #000;
+	}
+}
+
+.titulo-contacto {
+  text-align: center;
+  font-size: 4vh;
+  font-weight: bold;
+}
+.descripcion-contacto {
+  text-align: center;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.contenido-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px 40px 40px;
+  text-wrap: balance;
+  color: #fff;
+  gap: 2rem;
+}
+.boton-contacto {
+  border: none;
+  background-color: #f7f7f7;
+  color: #000;
+  padding: 1.1vh 2.2vh;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 2vh;
+}
+
+.boton-contacto:hover {
+  background-color: rgb(22, 94, 202);
+  color: #fff;
+  scale: 1.1;
+  box-shadow: #000 2px 2px 5px;
+  border-radius: 5px;
+  transition-duration: .5s;
+}

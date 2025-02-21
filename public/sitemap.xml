@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.devware.es</loc>
+		<priority>1.00</priority>
+		<lastmod>2024-05-24</lastmod>
+	</url>
+	<url>
+		<loc>https://www.devware.es/servicios</loc>
+		<priority>0.83</priority>
+		<lastmod>2024-05-24</lastmod>
+	</url>
+	<url>
+		<loc>https://www.devware.es/nosotros</loc>
+		<priority>0.83</priority>
+		<lastmod>2024-05-24</lastmod>
+	</url>
+	<url>
+		<loc>https://www.devware.es/contacto</loc>
+		<priority>0.83</priority>
+		<lastmod>2024-05-24</lastmod>
+	</url>
+</urlset>

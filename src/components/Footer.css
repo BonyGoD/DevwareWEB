@@ -1,0 +1,138 @@
+.contenedor-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-image: url('../assets/imagenes/footer/FondoFooter.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 0 15px #000;
+}
+.contenedor-logoDescripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  gap: 1rem;
+}
+.redes-sociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3vh;
+}
+.descripciones-footer,
+.titulos-footer,
+.links-redes {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2vh;
+}
+.titulos-footer {
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+.lista-servicios {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: justify;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5vh;
+}
+.links-servicios {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1.5rem;
+  font-size: 2vh;
+}
+.links-servicios:hover {
+  color: #ff9300;
+  transform: scale(1.3);
+}
+.contenedor-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.contenedor-contacto-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  gap: 1rem;
+  font-weight: bold;
+}
+.derechos-reservados {
+  text-align: center;
+  grid-column-start: -3;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  padding: 0 1vh;
+}
+.logo-devware-footer {
+  width: 11vh;
+  height: 11vh;
+}
+
+@media (max-width: 1024px) {
+  .contenedor-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .descripciones-footer,
+  .titulos-footer,
+  .links-redes {
+    text-align: center;
+  }
+  .lista-servicios {
+    text-align: center;
+    padding-inline-start: 0px;
+  }
+  .links-servicios {
+    margin-left: 0;
+  }
+  .derechos-reservados {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+  .contenedor-contacto-footer {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contenedor-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .derechos-reservados {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: medium;
+  }
+  .descripciones-footer,
+  .titulos-footer,
+  .links-redes {
+    text-align: center;
+  }
+  .lista-servicios {
+    text-align: center;
+    padding-inline-start: 0px;
+  }
+  .links-servicios {
+    margin-left: 0;
+  }
+  .logo-devware-footer {
+    width: 25vh;
+    height: 25vh;
+  }
+}
